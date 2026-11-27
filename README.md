@@ -1,40 +1,43 @@
-# DASE7506 MP3 · Joint SQL Repair Agent
+# Grounded SQL repair agent
 
-## Usage
+Grounded repairs SQLite queries for DASE7506 MP3. It uses the schema, cached repair hints and execution feedback from the official starter to generate and check candidate queries before submitting one. It runs on a Linux CPU.
 
-Run the agent on Linux with a CPU and Python 3.11 or 3.12. Download and extract the [official MP3 student package](https://xudongwu-0.github.io/courses/dase7506/mp3/). Set `MP3_STARTER` to the extracted directory containing `mp3_sql/`.
+## Run with the official starter
 
-Run the following commands from the directory containing this README.
+Download and extract the DASE7506 MP3 starter, which supplies the benchmark data, predictor and scorer. [Official starter download](https://xudongwu-0.github.io/courses/dase7506/mp3/downloads/MP3_SQL_student_package.zip?v=406d69507ccf)
+
+Start in the root of this release. Set `STARTER` to the extracted directory containing `mp3_sql/`. The commands use Python 3.12 and write fresh results to a temporary directory.
 
 ```bash
-MP3_STARTER="/absolute/path/to/MP3_SQL_student_package"
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-export PYTHONPATH="$PWD/submission:$MP3_STARTER"
+RELEASE="$PWD"
+STARTER=/absolute/path/to/MP3_SQL_student_package
+RUN_DIR=$(mktemp -d)
+python3.12 -m venv "$RUN_DIR/venv"
+source "$RUN_DIR/venv/bin/activate"
+python -m pip install -r "$STARTER/requirements.txt" -r "$RELEASE/requirements.txt"
+
+cd "$STARTER"
+export PYTHONHASHSEED=0 PYTHONDONTWRITEBYTECODE=1
+export PYTHONPATH="$RELEASE/submission"
 python -m mp3_sql.check_data
+for split in validation test; do
+  python -m mp3_sql.predict --split "$split" --workers 1 \
+    --method "$RELEASE/submission/submission.py" \
+    --checkpoint "$RELEASE/submission/config.json" --output "$RUN_DIR/$split.json"
+  python -m mp3_sql.score --split "$split" --workers 1 \
+    --predictions "$RUN_DIR/$split.json" --output "$RUN_DIR/$split-score.json"
+done
+echo "Results in $RUN_DIR"
 ```
 
-To evaluate the validation set, run the commands below. Set `mp3_split=test` to evaluate the test set. New predictions and scores are written to `runs/`.
+## Success rates
 
-```bash
-mp3_split=validation
-mkdir -p runs
-python -m mp3_sql.predict --split "$mp3_split" --workers 1 \
-  --method submission/submission.py --checkpoint submission/config.json \
-  --output "runs/$mp3_split.json"
-python -m mp3_sql.score --split "$mp3_split" --workers 1 \
-  --predictions "runs/$mp3_split.json" --output "runs/$mp3_split-score.json"
-```
+The official scorer replays each tool trace. A task passes when the submitted SQL produces the required result on all three grading database instances.
 
-## Results
-
-A task counts as correct when the submitted SQL returns the required result on all three grading database instances.
-
-| Split | Correct / total | Accuracy |
+| Evaluation | Tasks passed | Success rate |
 | --- | ---: | ---: |
-| Training (database-held-out folds) | 442 / 480 | 92.08% |
-| Validation | 102 / 120 | 85.00% |
-| Test | 197 / 240 | 82.08% |
+| TRAIN, three-fold out-of-fold by database | 411 / 480 | 85.63% |
+| Validation | 101 / 120 | 84.17% |
+| Public test | 200 / 240 | 83.33% |
 
-The released configuration is the one used for validation and test. The original test [predictions and tool traces](outputs/test.json) and [official score](outputs/test-score.json) are included.
+Each TRAIN task was evaluated once with assets fitted on the other two folds. Validation and test use the shipped checkpoint and assets fitted on all 480 TRAIN tasks. The original official test predictions and scorer output are in `outputs/`.
