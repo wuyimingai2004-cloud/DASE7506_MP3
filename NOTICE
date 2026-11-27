@@ -1,3 +1,7 @@
+Grounded uses the DASE7506 MP3 SQL Repair Agent starter. The fitted repair
+assets use Spider-derived training material. The test traces include observations
+from the course tools. The course attribution notice follows verbatim.
+
 DASE7506 MP3 SQL Repair Agent, assignment v2
 Spider: Yu et al., EMNLP 2018; https://yale-lily.github.io/spider
 https://arxiv.org/abs/1809.08887

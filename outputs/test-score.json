@@ -1,28 +1,28 @@
 {
   "protocol": "dase7506-sql-repair-v1",
   "n": 240,
-  "correct": 197,
-  "accuracy": 82.08333333333333,
-  "mean_tool_calls": 7.133333333333334,
+  "correct": 200,
+  "accuracy": 83.33333333333333,
+  "mean_tool_calls": 4.666666666666667,
   "per_question": [
     {
       "id": "test-a1c138edcf2741fa",
-      "passed": false,
+      "passed": true,
       "cases": [
         {
           "passed": true,
           "error": null
         },
         {
-          "passed": false,
+          "passed": true,
           "error": null
         },
         {
-          "passed": false,
+          "passed": true,
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-ee6e041ce37b0054",
@@ -41,7 +41,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 6
     },
     {
       "id": "test-538656ffa2ed1d48",
@@ -79,7 +79,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 7
     },
     {
       "id": "test-430318323ffb2861",
@@ -98,7 +98,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-954c6e7f23035d02",
@@ -117,7 +117,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-fa097b64a47cd1c2",
@@ -136,7 +136,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-b390adfd6719adf9",
@@ -155,7 +155,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 7
     },
     {
       "id": "test-750c21e4ae9b7ad1",
@@ -163,24 +163,15 @@
       "cases": [
         {
           "passed": false,
-          "error": {
-            "type": "OperationalError",
-            "message": "no such column: Cartoons.Channel"
-          }
+          "error": null
         },
         {
           "passed": false,
-          "error": {
-            "type": "OperationalError",
-            "message": "no such column: Cartoons.Channel"
-          }
+          "error": null
         },
         {
           "passed": false,
-          "error": {
-            "type": "OperationalError",
-            "message": "no such column: Cartoons.Channel"
-          }
+          "error": null
         }
       ],
       "tool_calls": 8
@@ -202,7 +193,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 3
     },
     {
       "id": "test-61c75796a8275815",
@@ -221,7 +212,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 6
     },
     {
       "id": "test-1e5854eaf74e8951",
@@ -240,7 +231,7 @@
           "error": null
         }
       ],
-      "tool_calls": 7
+      "tool_calls": 4
     },
     {
       "id": "test-bddf12cdb47ca832",
@@ -259,18 +250,18 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-a2d3c742e0bdffaf",
-      "passed": false,
+      "passed": true,
       "cases": [
         {
           "passed": true,
           "error": null
         },
         {
-          "passed": false,
+          "passed": true,
           "error": null
         },
         {
@@ -278,7 +269,7 @@
           "error": null
         }
       ],
-      "tool_calls": 5
+      "tool_calls": 4
     },
     {
       "id": "test-858439935458b795",
@@ -297,7 +288,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-d1afde5f87630d34",
@@ -316,7 +307,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 3
     },
     {
       "id": "test-3ca9959d1a5c739e",
@@ -335,7 +326,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 6
     },
     {
       "id": "test-98793321209fc4df",
@@ -354,7 +345,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-8f40a5b52b9370cf",
@@ -373,7 +364,7 @@
           "error": null
         }
       ],
-      "tool_calls": 5
+      "tool_calls": 3
     },
     {
       "id": "test-17bd15e78a53335d",
@@ -392,7 +383,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-533545540b097564",
@@ -411,7 +402,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-3c78700b4d9bbb59",
@@ -430,7 +421,7 @@
           "error": null
         }
       ],
-      "tool_calls": 6
+      "tool_calls": 5
     },
     {
       "id": "test-b496cf1fb5c3bbcc",
@@ -449,7 +440,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 6
     },
     {
       "id": "test-039cbbf7cfed4756",
@@ -468,7 +459,7 @@
           "error": null
         }
       ],
-      "tool_calls": 6
+      "tool_calls": 3
     },
     {
       "id": "test-26074a9abc52da13",
@@ -487,7 +478,7 @@
           "error": null
         }
       ],
-      "tool_calls": 5
+      "tool_calls": 3
     },
     {
       "id": "test-1aabd6d5b63a0052",
@@ -506,7 +497,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-e15658e8028920ba",
@@ -525,7 +516,7 @@
           "error": null
         }
       ],
-      "tool_calls": 5
+      "tool_calls": 3
     },
     {
       "id": "test-999d5ac4f971dbcc",
@@ -544,7 +535,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-b1f839c226c6f90b",
@@ -563,7 +554,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-6519a9a8c5a73d9d",
@@ -582,7 +573,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 6
     },
     {
       "id": "test-cd72991919cf7fa2",
@@ -601,7 +592,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-b2fb39ef5c9bd339",
@@ -620,7 +611,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-f63c8d6811ce4e19",
@@ -639,105 +630,10 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-a8c04993a7ad13cd",
-      "passed": true,
-      "cases": [
-        {
-          "passed": true,
-          "error": null
-        },
-        {
-          "passed": true,
-          "error": null
-        },
-        {
-          "passed": true,
-          "error": null
-        }
-      ],
-      "tool_calls": 8
-    },
-    {
-      "id": "test-12c8f8aac106abc6",
-      "passed": true,
-      "cases": [
-        {
-          "passed": true,
-          "error": null
-        },
-        {
-          "passed": true,
-          "error": null
-        },
-        {
-          "passed": true,
-          "error": null
-        }
-      ],
-      "tool_calls": 8
-    },
-    {
-      "id": "test-7210cedf22118106",
-      "passed": true,
-      "cases": [
-        {
-          "passed": true,
-          "error": null
-        },
-        {
-          "passed": true,
-          "error": null
-        },
-        {
-          "passed": true,
-          "error": null
-        }
-      ],
-      "tool_calls": 8
-    },
-    {
-      "id": "test-3461e55dfc4762c2",
-      "passed": true,
-      "cases": [
-        {
-          "passed": true,
-          "error": null
-        },
-        {
-          "passed": true,
-          "error": null
-        },
-        {
-          "passed": true,
-          "error": null
-        }
-      ],
-      "tool_calls": 8
-    },
-    {
-      "id": "test-291e16ffd0962474",
-      "passed": true,
-      "cases": [
-        {
-          "passed": true,
-          "error": null
-        },
-        {
-          "passed": true,
-          "error": null
-        },
-        {
-          "passed": true,
-          "error": null
-        }
-      ],
-      "tool_calls": 8
-    },
-    {
-      "id": "test-60779be23ca4364e",
       "passed": false,
       "cases": [
         {
@@ -756,6 +652,101 @@
       "tool_calls": 6
     },
     {
+      "id": "test-12c8f8aac106abc6",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "test-7210cedf22118106",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 6
+    },
+    {
+      "id": "test-3461e55dfc4762c2",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 5
+    },
+    {
+      "id": "test-291e16ffd0962474",
+      "passed": true,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": true,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
+      "id": "test-60779be23ca4364e",
+      "passed": false,
+      "cases": [
+        {
+          "passed": true,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        },
+        {
+          "passed": false,
+          "error": null
+        }
+      ],
+      "tool_calls": 4
+    },
+    {
       "id": "test-4dce78cce1803039",
       "passed": true,
       "cases": [
@@ -772,7 +763,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-45b26a2954c5243d",
@@ -791,7 +782,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-c2264c7a7d0f4af9",
@@ -810,7 +801,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 7
     },
     {
       "id": "test-d88e9951aef75895",
@@ -829,7 +820,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-b106976a1719a63f",
@@ -848,7 +839,7 @@
           "error": null
         }
       ],
-      "tool_calls": 7
+      "tool_calls": 3
     },
     {
       "id": "test-38e3bc1e9f80f3f8",
@@ -886,7 +877,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-3f0829971a326800",
@@ -905,7 +896,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-a5966282bc42b914",
@@ -924,7 +915,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-4f5d1b04d9de5aed",
@@ -981,7 +972,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 7
     },
     {
       "id": "test-574711dd6944dfd6",
@@ -1000,7 +991,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-1832aa98b184bb9c",
@@ -1019,7 +1010,7 @@
           "error": null
         }
       ],
-      "tool_calls": 5
+      "tool_calls": 4
     },
     {
       "id": "test-d251364ecf7e5c86",
@@ -1038,7 +1029,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-c6f070ffa1f41120",
@@ -1057,7 +1048,7 @@
           "error": null
         }
       ],
-      "tool_calls": 6
+      "tool_calls": 4
     },
     {
       "id": "test-b3e96dc1302f0dc9",
@@ -1076,7 +1067,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 6
     },
     {
       "id": "test-43689cbe73aa8738",
@@ -1095,26 +1086,26 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 6
     },
     {
       "id": "test-c2e41338477b8b32",
-      "passed": false,
+      "passed": true,
       "cases": [
         {
           "passed": true,
           "error": null
         },
         {
-          "passed": false,
+          "passed": true,
           "error": null
         },
         {
-          "passed": false,
+          "passed": true,
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-29fb575688847a8a",
@@ -1133,7 +1124,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-dd58a7dff9c982f6",
@@ -1152,7 +1143,7 @@
           "error": null
         }
       ],
-      "tool_calls": 4
+      "tool_calls": 3
     },
     {
       "id": "test-dbd0a614cad98b46",
@@ -1228,7 +1219,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-b3584cf86bfa038d",
@@ -1251,18 +1242,18 @@
     },
     {
       "id": "test-c51886fef2ae4a89",
-      "passed": true,
+      "passed": false,
       "cases": [
         {
-          "passed": true,
+          "passed": false,
           "error": null
         },
         {
-          "passed": true,
+          "passed": false,
           "error": null
         },
         {
-          "passed": true,
+          "passed": false,
           "error": null
         }
       ],
@@ -1304,7 +1295,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-fc75c2ef50fca9b0",
@@ -1323,7 +1314,7 @@
           "error": null
         }
       ],
-      "tool_calls": 5
+      "tool_calls": 4
     },
     {
       "id": "test-047b089faca61e12",
@@ -1342,7 +1333,7 @@
           "error": null
         }
       ],
-      "tool_calls": 4
+      "tool_calls": 3
     },
     {
       "id": "test-ac16b8bc7e8897c3",
@@ -1361,7 +1352,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-a823ee5b5911dc97",
@@ -1380,7 +1371,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 6
     },
     {
       "id": "test-bfbe17294cf72c8f",
@@ -1399,7 +1390,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-58731b57f02d3518",
@@ -1418,7 +1409,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-7d74e2e76e6f6f68",
@@ -1437,7 +1428,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-ac021e94a48a3601",
@@ -1456,7 +1447,7 @@
           "error": null
         }
       ],
-      "tool_calls": 5
+      "tool_calls": 4
     },
     {
       "id": "test-a9601bc8da0bfa57",
@@ -1494,7 +1485,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 6
     },
     {
       "id": "test-5952e3b848c47c29",
@@ -1513,22 +1504,22 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 3
     },
     {
       "id": "test-7027fc92932f1639",
-      "passed": false,
+      "passed": true,
       "cases": [
         {
-          "passed": false,
+          "passed": true,
           "error": null
         },
         {
-          "passed": false,
+          "passed": true,
           "error": null
         },
         {
-          "passed": false,
+          "passed": true,
           "error": null
         }
       ],
@@ -1570,7 +1561,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-60772c12abe7a195",
@@ -1589,7 +1580,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-4806e31da8750422",
@@ -1608,7 +1599,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-1e1b5873af265ee5",
@@ -1627,7 +1618,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-c11428e57c965021",
@@ -1646,7 +1637,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 7
     },
     {
       "id": "test-c24068af2f82d67b",
@@ -1665,7 +1656,7 @@
           "error": null
         }
       ],
-      "tool_calls": 7
+      "tool_calls": 4
     },
     {
       "id": "test-6ee8fc4e4a021be4",
@@ -1684,7 +1675,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-f3f0286945ea2ccf",
@@ -1703,7 +1694,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-60203037c57b72b4",
@@ -1722,7 +1713,7 @@
           "error": null
         }
       ],
-      "tool_calls": 4
+      "tool_calls": 3
     },
     {
       "id": "test-45c32f6e350f35f4",
@@ -1741,22 +1732,22 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 6
     },
     {
       "id": "test-e862c7ba561007a4",
-      "passed": false,
+      "passed": true,
       "cases": [
         {
-          "passed": false,
+          "passed": true,
           "error": null
         },
         {
-          "passed": false,
+          "passed": true,
           "error": null
         },
         {
-          "passed": false,
+          "passed": true,
           "error": null
         }
       ],
@@ -1779,7 +1770,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-f4a5ec5fe50eae21",
@@ -1798,7 +1789,7 @@
           "error": null
         }
       ],
-      "tool_calls": 6
+      "tool_calls": 4
     },
     {
       "id": "test-3cc4ebb971dc3959",
@@ -1817,7 +1808,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-6d9b9770e909b3bc",
@@ -1836,7 +1827,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-63a193b8d7b9bb43",
@@ -1855,7 +1846,7 @@
           "error": null
         }
       ],
-      "tool_calls": 7
+      "tool_calls": 4
     },
     {
       "id": "test-9340d819880240a5",
@@ -1893,7 +1884,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 3
     },
     {
       "id": "test-8e9c721daeee3706",
@@ -1912,7 +1903,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-5f486c11755e098d",
@@ -1950,7 +1941,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-3c88a936e051bbb4",
@@ -1969,7 +1960,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 3
     },
     {
       "id": "test-a1bfbc487dc9c888",
@@ -1988,7 +1979,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-d7824905d10995a3",
@@ -2007,7 +1998,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-790630de56df8724",
@@ -2045,7 +2036,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-0d2e18c35ed71bd6",
@@ -2064,7 +2055,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 7
     },
     {
       "id": "test-f145d8aa386e7211",
@@ -2083,7 +2074,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 7
     },
     {
       "id": "test-da6c58c639dfa4b2",
@@ -2102,7 +2093,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-9b601c318d36be10",
@@ -2140,7 +2131,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-932a66463aa1d03f",
@@ -2159,7 +2150,7 @@
           "error": null
         }
       ],
-      "tool_calls": 7
+      "tool_calls": 3
     },
     {
       "id": "test-06b1a5464e729854",
@@ -2178,7 +2169,7 @@
           "error": null
         }
       ],
-      "tool_calls": 5
+      "tool_calls": 4
     },
     {
       "id": "test-0fdc295cb00a221b",
@@ -2197,7 +2188,7 @@
           "error": null
         }
       ],
-      "tool_calls": 6
+      "tool_calls": 3
     },
     {
       "id": "test-dfe5b378c86e1dc4",
@@ -2235,7 +2226,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-aae297b3d8f88fc3",
@@ -2254,7 +2245,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-4e840d54f9535602",
@@ -2273,7 +2264,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-6b91020f8fe6249a",
@@ -2292,7 +2283,7 @@
           "error": null
         }
       ],
-      "tool_calls": 6
+      "tool_calls": 3
     },
     {
       "id": "test-e21e27fd8f938f50",
@@ -2311,7 +2302,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-ca31272fcc1eae9f",
@@ -2330,7 +2321,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-17452a7f98a02c84",
@@ -2349,7 +2340,7 @@
           "error": null
         }
       ],
-      "tool_calls": 7
+      "tool_calls": 8
     },
     {
       "id": "test-7b72d162c5630bd4",
@@ -2368,7 +2359,7 @@
           "error": null
         }
       ],
-      "tool_calls": 6
+      "tool_calls": 3
     },
     {
       "id": "test-ecec80576b4cea07",
@@ -2387,18 +2378,18 @@
           "error": null
         }
       ],
-      "tool_calls": 4
+      "tool_calls": 3
     },
     {
       "id": "test-954f150a8e76683d",
-      "passed": true,
+      "passed": false,
       "cases": [
         {
           "passed": true,
           "error": null
         },
         {
-          "passed": true,
+          "passed": false,
           "error": null
         },
         {
@@ -2406,7 +2397,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-dbbe15050125cf36",
@@ -2425,18 +2416,18 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-446b0d338b4877c5",
-      "passed": true,
+      "passed": false,
       "cases": [
         {
-          "passed": true,
+          "passed": false,
           "error": null
         },
         {
-          "passed": true,
+          "passed": false,
           "error": null
         },
         {
@@ -2463,7 +2454,7 @@
           "error": null
         }
       ],
-      "tool_calls": 5
+      "tool_calls": 3
     },
     {
       "id": "test-38eace3241ebadf8",
@@ -2482,7 +2473,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-437441d03fd77a78",
@@ -2501,7 +2492,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-897d265c3b4a4650",
@@ -2520,7 +2511,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-09b06e6d2b8f0697",
@@ -2539,7 +2530,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 3
     },
     {
       "id": "test-38784ed5e313c4fe",
@@ -2577,7 +2568,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-516f6b296a76f1d9",
@@ -2596,7 +2587,7 @@
           "error": null
         }
       ],
-      "tool_calls": 5
+      "tool_calls": 4
     },
     {
       "id": "test-395869eae4a7c34d",
@@ -2634,7 +2625,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 6
     },
     {
       "id": "test-4d3abeb536913a96",
@@ -2672,11 +2663,11 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-e39ffe4c0093d469",
-      "passed": false,
+      "passed": true,
       "cases": [
         {
           "passed": true,
@@ -2687,11 +2678,11 @@
           "error": null
         },
         {
-          "passed": false,
+          "passed": true,
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-0f2e72ca13523af3",
@@ -2710,7 +2701,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-3c2dc4f12fe6b6d1",
@@ -2748,7 +2739,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-55b4f5ad27ee8fb2",
@@ -2767,14 +2758,14 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 7
     },
     {
       "id": "test-04a7c33d7b7e492d",
       "passed": false,
       "cases": [
         {
-          "passed": false,
+          "passed": true,
           "error": null
         },
         {
@@ -2782,7 +2773,7 @@
           "error": null
         },
         {
-          "passed": false,
+          "passed": true,
           "error": null
         }
       ],
@@ -2805,7 +2796,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-1e07a43ae53c765a",
@@ -2824,7 +2815,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-7574831b0d7f970e",
@@ -2862,7 +2853,7 @@
           "error": null
         }
       ],
-      "tool_calls": 6
+      "tool_calls": 3
     },
     {
       "id": "test-ea9b20d5be3c8968",
@@ -2881,7 +2872,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-66f119a08a386e37",
@@ -2900,7 +2891,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-3d626fd98bf1ad2b",
@@ -2919,7 +2910,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-df759c7203207278",
@@ -2938,7 +2929,7 @@
           "error": null
         }
       ],
-      "tool_calls": 5
+      "tool_calls": 3
     },
     {
       "id": "test-fec75cf14779c696",
@@ -2957,7 +2948,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-0fd3e79c9503cfda",
@@ -2976,7 +2967,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 7
     },
     {
       "id": "test-e74356f7af3bfc0e",
@@ -2995,7 +2986,7 @@
           "error": null
         }
       ],
-      "tool_calls": 4
+      "tool_calls": 3
     },
     {
       "id": "test-cedfe51cf7a3eeae",
@@ -3033,7 +3024,7 @@
           "error": null
         }
       ],
-      "tool_calls": 7
+      "tool_calls": 4
     },
     {
       "id": "test-2b945f68199483a3",
@@ -3071,7 +3062,7 @@
           "error": null
         }
       ],
-      "tool_calls": 7
+      "tool_calls": 3
     },
     {
       "id": "test-6d7f4197720b48a0",
@@ -3090,7 +3081,7 @@
           "error": null
         }
       ],
-      "tool_calls": 7
+      "tool_calls": 5
     },
     {
       "id": "test-b5169b5791544911",
@@ -3109,7 +3100,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-317bf27d88f63088",
@@ -3147,7 +3138,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 6
     },
     {
       "id": "test-c85be037e6988183",
@@ -3166,7 +3157,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-29bd70564f4bcece",
@@ -3185,7 +3176,7 @@
           "error": null
         }
       ],
-      "tool_calls": 7
+      "tool_calls": 3
     },
     {
       "id": "test-9d0333af61df8e61",
@@ -3204,7 +3195,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-278f2b91814004f4",
@@ -3223,7 +3214,7 @@
           "error": null
         }
       ],
-      "tool_calls": 6
+      "tool_calls": 3
     },
     {
       "id": "test-0a7740c267cb6ed0",
@@ -3242,7 +3233,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-16725d4ec6edbbe0",
@@ -3299,26 +3290,26 @@
           "error": null
         }
       ],
-      "tool_calls": 6
+      "tool_calls": 3
     },
     {
       "id": "test-1f97cc01728786b5",
-      "passed": false,
+      "passed": true,
       "cases": [
         {
           "passed": true,
           "error": null
         },
         {
-          "passed": false,
+          "passed": true,
           "error": null
         },
         {
-          "passed": false,
+          "passed": true,
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-9b5ba1c038d43c61",
@@ -3356,7 +3347,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-26638bea5ca0e214",
@@ -3379,22 +3370,22 @@
     },
     {
       "id": "test-cbb4a16977299a25",
-      "passed": false,
+      "passed": true,
       "cases": [
         {
           "passed": true,
           "error": null
         },
         {
-          "passed": false,
+          "passed": true,
           "error": null
         },
         {
-          "passed": false,
+          "passed": true,
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 6
     },
     {
       "id": "test-e16527a909ee2636",
@@ -3413,18 +3404,18 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 3
     },
     {
       "id": "test-8279805a0c470bed",
-      "passed": true,
+      "passed": false,
       "cases": [
         {
           "passed": true,
           "error": null
         },
         {
-          "passed": true,
+          "passed": false,
           "error": null
         },
         {
@@ -3432,7 +3423,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-cb4d204196b6daa9",
@@ -3451,7 +3442,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-f062e74c848cfdcf",
@@ -3489,7 +3480,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-b347bdf78d8ca898",
@@ -3508,7 +3499,7 @@
           "error": null
         }
       ],
-      "tool_calls": 6
+      "tool_calls": 4
     },
     {
       "id": "test-6325c7bc0f81c247",
@@ -3527,7 +3518,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 6
     },
     {
       "id": "test-1da2a4b48be2e0d8",
@@ -3546,7 +3537,7 @@
           "error": null
         }
       ],
-      "tool_calls": 6
+      "tool_calls": 4
     },
     {
       "id": "test-14bb58f69721ce02",
@@ -3584,26 +3575,26 @@
           "error": null
         }
       ],
-      "tool_calls": 6
+      "tool_calls": 3
     },
     {
       "id": "test-4dc3045ff002a9bb",
-      "passed": true,
+      "passed": false,
       "cases": [
         {
           "passed": true,
           "error": null
         },
         {
-          "passed": true,
+          "passed": false,
           "error": null
         },
         {
-          "passed": true,
+          "passed": false,
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-9b813a630d93c370",
@@ -3622,7 +3613,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-185d13249868dc86",
@@ -3660,7 +3651,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-469f22a3a541ed03",
@@ -3679,7 +3670,7 @@
           "error": null
         }
       ],
-      "tool_calls": 5
+      "tool_calls": 4
     },
     {
       "id": "test-ea750ea042a6230a",
@@ -3698,7 +3689,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 6
     },
     {
       "id": "test-640483e38a8ea5d0",
@@ -3717,7 +3708,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 6
     },
     {
       "id": "test-2055d867cad8eb30",
@@ -3736,7 +3727,7 @@
           "error": null
         }
       ],
-      "tool_calls": 6
+      "tool_calls": 3
     },
     {
       "id": "test-a954ee743293f6e3",
@@ -3755,7 +3746,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-96b7a74db114f0bc",
@@ -3774,7 +3765,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-76f87a856639777d",
@@ -3793,7 +3784,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 3
     },
     {
       "id": "test-c3e9a50aa3f90855",
@@ -3831,7 +3822,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 6
     },
     {
       "id": "test-a34a835e6492c545",
@@ -3850,7 +3841,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-dd0d869b1db4e0c7",
@@ -3869,7 +3860,7 @@
           "error": null
         }
       ],
-      "tool_calls": 5
+      "tool_calls": 4
     },
     {
       "id": "test-432848dee5f4c188",
@@ -3888,7 +3879,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-e1ba2ede53410444",
@@ -3907,7 +3898,7 @@
           "error": null
         }
       ],
-      "tool_calls": 4
+      "tool_calls": 3
     },
     {
       "id": "test-e2705818840e9bc7",
@@ -3926,7 +3917,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-477f1ec7ebf850ad",
@@ -3945,7 +3936,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 3
     },
     {
       "id": "test-88097c0399669366",
@@ -3964,7 +3955,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-a3fcde8bc5521960",
@@ -3983,7 +3974,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-09d2e526f093e00b",
@@ -4002,7 +3993,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 3
     },
     {
       "id": "test-131a8b88670d3718",
@@ -4021,7 +4012,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 3
     },
     {
       "id": "test-19a86ac705aca208",
@@ -4040,7 +4031,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-8c612ad50b1b686e",
@@ -4097,7 +4088,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-6f9f93313ff665be",
@@ -4116,7 +4107,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-757dbd45d7456ade",
@@ -4154,7 +4145,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-860426977626b57b",
@@ -4173,7 +4164,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-64f1f55f753279fa",
@@ -4192,7 +4183,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-e5601f0764aff44d",
@@ -4211,7 +4202,7 @@
           "error": null
         }
       ],
-      "tool_calls": 7
+      "tool_calls": 3
     },
     {
       "id": "test-cddf8495f77a1417",
@@ -4230,7 +4221,7 @@
           "error": null
         }
       ],
-      "tool_calls": 7
+      "tool_calls": 4
     },
     {
       "id": "test-5b46366a07dbf0e1",
@@ -4268,7 +4259,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 7
     },
     {
       "id": "test-3090afd7fef3111b",
@@ -4287,7 +4278,7 @@
           "error": null
         }
       ],
-      "tool_calls": 7
+      "tool_calls": 4
     },
     {
       "id": "test-754dd7ef450561d8",
@@ -4306,7 +4297,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-28e2dcd23684ad29",
@@ -4325,7 +4316,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-7bb0223864d56251",
@@ -4344,7 +4335,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 6
     },
     {
       "id": "test-11a1b59b56b06e6f",
@@ -4363,7 +4354,7 @@
           "error": null
         }
       ],
-      "tool_calls": 5
+      "tool_calls": 3
     },
     {
       "id": "test-b4586151616cfd77",
@@ -4382,7 +4373,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-3901f0bcf5ae219d",
@@ -4439,7 +4430,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-5569c76b86e09542",
@@ -4458,22 +4449,22 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-8fa8d0a4a7fe0e9e",
-      "passed": false,
+      "passed": true,
       "cases": [
         {
-          "passed": false,
+          "passed": true,
           "error": null
         },
         {
-          "passed": false,
+          "passed": true,
           "error": null
         },
         {
-          "passed": false,
+          "passed": true,
           "error": null
         }
       ],
@@ -4515,7 +4506,7 @@
           "error": null
         }
       ],
-      "tool_calls": 6
+      "tool_calls": 4
     },
     {
       "id": "test-b7412f2dfd256bc0",
@@ -4534,7 +4525,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 4
     },
     {
       "id": "test-4e6198c6940dca9e",
@@ -4553,7 +4544,7 @@
           "error": null
         }
       ],
-      "tool_calls": 8
+      "tool_calls": 5
     },
     {
       "id": "test-45a5c1d51cd1a932",
@@ -4582,6 +4573,6 @@
   "references_sha256": "8be5f2746ee324d6b4b880dd84a2f8de56fa540af08e93842c0476adec581506",
   "scorer_sha256": "87870af26173fbe6d8994e4de179fb272ef1fadf7dcaafc2e7b4c814c61ec95b",
   "executor_sha256": "4ecc3839728d68bd83f0d2a52cdd8392fd76dbaec3e54a19422118dee587b471",
-  "predictions_sha256": "d678fa1eb27d3ba81968aba724f9d06e4ea25bc3926309bf13ee7dd9fb9219b2",
-  "scoring_seconds": 47.54781663301401
+  "predictions_sha256": "6ec43b6d58bc4d66aad04db1ecd8088d693e01a74b8fd00daba95625f268025f",
+  "scoring_seconds": 35.77229062980041
 }
